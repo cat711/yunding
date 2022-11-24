@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .top{
     width: 1920px;
     height: 814px;
@@ -70,6 +74,7 @@
     background-color: white;
     position: absolute;
     left: 829px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.3);
 }
 .title{
     font-weight: 700;
@@ -190,12 +195,13 @@ p{
 .view{
     background-color: white;
     width: 805px;
-    height: 200px;
+    height: 350px;
     position: absolute;
     left: 541px;
     top: 2500px;
     border: #6f6d6d;
     border-width: 3px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.3);
 }
 .blank4{
     width: 1920px;
@@ -267,7 +273,6 @@ p{
 }
 .pho2{
     background-image: url(img/13.png);
-    background-position:top center;
     align-items: baseline;
     width: 249px;
     height: 372px;
@@ -319,19 +324,22 @@ p{
     top: 4100px;
 }
 .choice{
+    flex: auto;
     width: 888px;
-    height: 439px;
+    height: 420px;
     background-color: white;
     position: absolute;
     top: 4150px;
     left: 535px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.3);
 }
 .choice1{
     width: 377px;
     height: 121px;
     background-image: url(img/17.png);
     margin-left: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
+    margin-top: 5px;
     display: inline-block;
 }
 .choice2{
@@ -352,8 +360,8 @@ p{
 }
 .message{
     display: inline-block;
-    position: relative;
     top: 10px;
+    margin-top: 1px;
 }
 .blank7{
     width: 1920px;
@@ -374,7 +382,7 @@ p{
     font-size: 30px;
     font-weight: 600;
     color: white;
-    line-height: 15px;
+    line-height: 25px;
     text-align: center;
 }
 .bigpho{
